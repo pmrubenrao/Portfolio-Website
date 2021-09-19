@@ -1,11 +1,13 @@
 <template>
   <navigation-menu></navigation-menu>
+  <about-me></about-me>
 </template>
 
 <script>
 import NavigationMenu from './components/NavigationMenu.vue';
+import AboutMe from './components/AboutMe.vue';
 export default {
-  components: { NavigationMenu },
+  components: { NavigationMenu,AboutMe },
   data() {
     return {
       friends: [
