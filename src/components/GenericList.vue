@@ -11,33 +11,38 @@
       <!-- LEARNING -->
       <h1 :class="headerList">WHAT I'M LEARNING</h1>
       <the-list skills-data="learning"></the-list>
-
-      <!-- BLOG POST  -->
+    </div>
+  </section>
+  <section class="skill-set">
+    <!-- BLOG POST  -->
+    <div class="container">
       <h1 :class="headerList">BLOG POST</h1>
     </div>
+    <the-blog-post></the-blog-post>
   </section>
 </template>
 
 <script>
 import TheList from './TheList.vue';
 import TheSubHeader from './TheSubHeader.vue';
+import TheBlogPost from './TheBlogPost.vue';
 export default {
-  components: { TheList, TheSubHeader },
+  components: { TheList, TheSubHeader, TheBlogPost },
   props: ['headerList'],
   data() {
     return {
-      skillsData: [
-        'Nodejs',
-        'AWS lambda functions',
-        'API Gateway',
-        'GraphQL',
-        'Google Firestore',
-      ],
-      subHeaderListData: [
-        'Backend Stack',
-        'Frontend Stack',
-        "What i'm Learning",
-      ],
+      // skillsData: [
+      //   'Nodejs',
+      //   'AWS lambda functions',
+      //   'API Gateway',
+      //   'GraphQL',
+      //   'Google Firestore',
+      // ],
+      // subHeaderListData: [
+      //   'Backend Stack',
+      //   'Frontend Stack',
+      //   "What i'm Learning",
+      // ],
     };
   },
 };
