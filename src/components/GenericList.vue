@@ -1,42 +1,45 @@
 <template>
   <section class="skill-set">
     <div class="container">
+      <!-- SKILLS -->
       <h1 :class="headerList">SKILLS</h1>
+      <the-sub-header sub-header-data="BACKEND STACK"></the-sub-header>
+      <the-list skills-data="backendstack"></the-list>
+      <the-sub-header sub-header-data="FRONTEND STACK"></the-sub-header>
+      <the-list skills-data="frontendstack"></the-list>
 
-      <div :class="subHeaderList">Backend Stack</div>
-      <div :class="plainList">Node js</div>
-      <div :class="plainList">AWS lambda functions</div>
-      <div :class="plainList">API Gateway</div>
-      <div :class="plainList">GraphQL</div>
-      <div :class="plainList">Google Firestore</div>
+      <!-- LEARNING -->
+      <h1 :class="headerList">WHAT I'M LEARNING</h1>
+      <the-list skills-data="learning"></the-list>
 
-      <div :class="subHeaderList">Frontend Stack</div>
-      <div :class="plainList">Vue js</div>
-      <div :class="plainList">ECMAScript 6/Babel</div>
-      <div :class="plainList">HTML5/CSS3/SASS</div>
-      <div :class="plainList">GraphQL</div>
-
-      <h1 :class="headerList">What i'm Learning</h1>
-
-      <div :class="plainList">Block Chain</div>
-      <div :class="plainList">Python 3</div>
+      <!-- BLOG POST  -->
+      <h1 :class="headerList">BLOG POST</h1>
     </div>
   </section>
 </template>
 
 <script>
+import TheList from './TheList.vue';
+import TheSubHeader from './TheSubHeader.vue';
 export default {
-  props: ['headerList', 'subHeaderList', 'plainList'],
+  components: { TheList, TheSubHeader },
+  props: ['headerList'],
   data() {
     return {
-      dummy: '',
+      skillsData: [
+        'Nodejs',
+        'AWS lambda functions',
+        'API Gateway',
+        'GraphQL',
+        'Google Firestore',
+      ],
+      subHeaderListData: [
+        'Backend Stack',
+        'Frontend Stack',
+        "What i'm Learning",
+      ],
     };
   },
-  // methods: {
-  //   classReceiver(classname) {
-  //     return this.classname;
-  //   },
-  // },
 };
 </script>
 
@@ -47,6 +50,7 @@ section {
   padding: 1em 2em;
   max-width: 47.5em;
   margin: 0 auto 0 auto;
+  list-style-type: none;
 }
 
 .skill-set {
@@ -57,13 +61,13 @@ section {
     flex-wrap: wrap;
     // background: #20272e;
     // padding: 0 0 1.5em 0;
-    .skill {
-      display: flex;
-      align-items: center;
-      flex: 0 0 45%;
-      margin-bottom: 0.5rem;
-      justify-content: space-between;
-    }
+    // .skill {
+    //   display: flex;
+    //   align-items: center;
+    //   flex: 0 0 45%;
+    //   margin-bottom: 0.5rem;
+    //   justify-content: space-between;
+    // }
     .skill-header {
       font-weight: 700;
       text-transform: uppercase;
@@ -72,13 +76,13 @@ section {
       letter-spacing: 0.2rem;
       border-bottom: 0.2rem solid var(--primary-color);
     }
-    .skill-sub-header {
-      font-weight: 700;
-      text-transform: uppercase;
-      width: 100%;
-      margin: 1rem 0;
-      letter-spacing: 0.2rem;
-    }
+    // .skill-sub-header {
+    //   font-weight: 700;
+    //   text-transform: uppercase;
+    //   width: 100%;
+    //   margin: 1rem 0;
+    //   letter-spacing: 0.2rem;
+    // }
   }
 }
 </style>

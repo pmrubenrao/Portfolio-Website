@@ -1,11 +1,7 @@
 <template>
   <navigation-menu></navigation-menu>
   <about-me></about-me>
-  <generic-list
-    header-list="skill-header"
-    sub-header-list="skill-sub-header"
-    plain-list="skill"
-  ></generic-list>
+  <generic-list header-list="skill-header"></generic-list>
 </template>
 
 <script>
@@ -14,7 +10,11 @@ import AboutMe from './components/AboutMe.vue';
 import GenericList from './components/GenericList.vue';
 
 export default {
-  components: { 'navigation-menu': NavigationMenu, AboutMe, GenericList },
+  components: {
+    'navigation-menu': NavigationMenu,
+    AboutMe,
+    GenericList,
+  },
   data() {
     return {
       friends: [
