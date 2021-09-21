@@ -15,14 +15,6 @@ export default {
     AboutMe,
     GenericList,
   },
-  data() {
-    return {
-      friends: [
-        { id: 'ruben', name: 'ruben rao', contact: '1231231232' },
-        { id: 'bond', name: 'ruben bond', contact: '12311233232' },
-      ],
-    };
-  },
 };
 </script>
 

@@ -13,8 +13,9 @@
       <the-list skills-data="learning"></the-list>
     </div>
   </section>
+
+  <!-- BLOG POST  -->
   <section class="skill-set">
-    <!-- BLOG POST  -->
     <div class="container">
       <h1 :class="headerList">BLOG POST</h1>
     </div>
@@ -29,22 +30,6 @@ import TheBlogPost from './TheBlogPost.vue';
 export default {
   components: { TheList, TheSubHeader, TheBlogPost },
   props: ['headerList'],
-  data() {
-    return {
-      // skillsData: [
-      //   'Nodejs',
-      //   'AWS lambda functions',
-      //   'API Gateway',
-      //   'GraphQL',
-      //   'Google Firestore',
-      // ],
-      // subHeaderListData: [
-      //   'Backend Stack',
-      //   'Frontend Stack',
-      //   "What i'm Learning",
-      // ],
-    };
-  },
 };
 </script>
 
@@ -64,15 +49,6 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    // background: #20272e;
-    // padding: 0 0 1.5em 0;
-    // .skill {
-    //   display: flex;
-    //   align-items: center;
-    //   flex: 0 0 45%;
-    //   margin-bottom: 0.5rem;
-    //   justify-content: space-between;
-    // }
     .skill-header {
       font-weight: 700;
       text-transform: uppercase;
@@ -81,13 +57,6 @@ section {
       letter-spacing: 0.2rem;
       border-bottom: 0.2rem solid var(--primary-color);
     }
-    // .skill-sub-header {
-    //   font-weight: 700;
-    //   text-transform: uppercase;
-    //   width: 100%;
-    //   margin: 1rem 0;
-    //   letter-spacing: 0.2rem;
-    // }
   }
 }
 </style>

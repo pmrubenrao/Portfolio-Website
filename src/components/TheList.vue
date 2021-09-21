@@ -7,25 +7,19 @@
 </template>
 
 <script>
+import {
+  frontendData,
+  backendData,
+  learningData,
+} from '../../persistentData/skill_details.js';
 export default {
   props: ['skillsData'],
   data() {
     return {
       selector: [],
-      backendSkill: [
-        'Nodejs',
-        'AWS lambda functions',
-        'API Gateway',
-        'GraphQL',
-        'Google Firestore',
-      ],
-      frontendSkill: [
-        'Vue Js',
-        'ECMAScript 6/Babel',
-        'HTML5/CSS3/SCSS',
-        'GraphQL',
-      ],
-      currentLearning: ['Block Chain / Crypto Currency', 'Python3'],
+      backendSkill: frontendData,
+      frontendSkill: backendData,
+      currentLearning: learningData,
     };
   },
   mounted() {
