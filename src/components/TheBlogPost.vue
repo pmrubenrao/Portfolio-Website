@@ -2,7 +2,7 @@
   <div
     v-for="blogDetail in blogDetails"
     :key="blogDetail.title"
-    class="blog-section"
+    class="blog-layout"
   >
     <a href="https://serverless.world/videohost.html">{{ blogDetail.title }}</a>
     <small>Sun August 30 2020 • 7 min read</small>
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.blog-section {
+.blog-layout {
   display: flex;
   align-items: flex-start;
   flex: 0 0 45%;
