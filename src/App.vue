@@ -1,7 +1,7 @@
 <template>
   <navigation-menu></navigation-menu>
   <about-me></about-me>
-  <generic-list header-list="skill-header"></generic-list>
+  <generic-list header-list="header-layout-patch"></generic-list>
 </template>
 
 <script>

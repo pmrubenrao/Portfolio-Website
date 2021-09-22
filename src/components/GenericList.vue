@@ -1,5 +1,5 @@
 <template>
-  <section class="skill-set">
+  <section class="header-layout">
     <div class="container">
       <!-- SKILLS -->
       <h1 :class="headerList">SKILLS</h1>
@@ -15,7 +15,7 @@
   </section>
 
   <!-- BLOG POST  -->
-  <section class="skill-set">
+  <section class="header-layout">
     <div class="container">
       <h1 :class="headerList">BLOG POST</h1>
     </div>
@@ -43,13 +43,12 @@ section {
   list-style-type: none;
 }
 
-.skill-set {
+.header-layout {
   .container {
-    // margin: 0rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    .skill-header {
+    .header-layout-patch {
       font-weight: 700;
       text-transform: uppercase;
       width: 100%;

@@ -1,5 +1,5 @@
 <template>
-  <li class="skill-sub-header">
+  <li class="sub-header">
     {{ subHeaderData }}
   </li>
   <!-- <slot></slot> -->
@@ -8,20 +8,11 @@
 <script>
 export default {
   props: ['subHeaderData'],
-  data() {
-    return {
-      //   subHeaderListData: [
-      //     'Backend Stack',
-      //     'Frontend Stack',
-      //     "What i'm Learning",
-      //   ],
-    };
-  },
 };
 </script>
 
 <style lang="scss" scoped>
-.skill-sub-header {
+.sub-header {
   font-weight: 700;
   text-transform: uppercase;
   width: 100%;

@@ -1,9 +1,7 @@
 <template>
-  <!-- <the-sub-header> -->
-  <li v-for="skill in selector" :key="skill" class="skill">
+  <li v-for="skill in selector" :key="skill" class="list-layout">
     {{ skill }}
   </li>
-  <!-- </the-sub-header> -->
 </template>
 
 <script>
@@ -35,7 +33,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.skill {
+.list-layout {
   display: flex;
   align-items: center;
   flex: 0 0 45%;
