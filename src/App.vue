@@ -1,19 +1,18 @@
 <template>
   <navigation-menu></navigation-menu>
-  <about-me></about-me>
-  <generic-list header-list="header-layout-patch"></generic-list>
+  <main>
+    <router-view></router-view>
+  </main>
 </template>
 
 <script>
 import NavigationMenu from './components/NavigationMenu.vue';
-import AboutMe from './components/AboutMe.vue';
-import GenericList from './components/GenericList.vue';
 
 export default {
   components: {
     'navigation-menu': NavigationMenu,
-    AboutMe,
-    GenericList,
+    // AboutMe,
+    // GenericList,
   },
 };
 </script>
@@ -32,11 +31,5 @@ export default {
     margin: 0px;
     font-family: 'Poppins';
   }
-
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px; */
 }
 </style>

@@ -34,46 +34,6 @@
 <script></script>
 
 <style lang="scss" scoped>
-.navbar {
-  background: white;
-  padding: 1em;
-
-  .logo {
-    text-decoration: none;
-    font-weight: 700;
-    color: black;
-    font-size: 1.2em;
-
-    span {
-      color: var(--primary-color);
-    }
-  }
-
-  nav {
-    display: none;
-  }
-
-  .container {
-    display: flex;
-    place-content: space-between;
-  }
-  .mobile-menu {
-    cursor: pointer;
-  }
-  img {
-    width: 1.5em;
-    height: auto;
-  }
-}
-
-a {
-  color: #444444;
-}
-
-ul {
-  margin: 0;
-}
-
 section {
   /* margin: 0 1rem 0 1rem; */
   padding: 5em 2em;

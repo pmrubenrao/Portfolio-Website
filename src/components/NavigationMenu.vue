@@ -17,8 +17,9 @@
             alt="Close Navigation"
           />
           <ul class="primary-nav">
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Porfolio</a></li>
+            <li><router-link to="/about">About</router-link></li>
+            <!-- <li><a href="portfolio.html">Porfolio</a></li> -->
+            <li><router-link to="/portfolio">Porfolio</router-link></li>
             <li><a href="https://serverless.world">Blog</a></li>
             <li class="btn-open"><a href="contact.html">Contact</a></li>
           </ul>
