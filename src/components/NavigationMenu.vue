@@ -57,6 +57,7 @@ body {
 
 nav.menu-btn {
   display: block;
+  transition: 0.3s;
 }
 
 nav {
@@ -73,6 +74,7 @@ nav {
   ul.primary-nav {
     margin-top: 5em;
     list-style-type: none;
+    transition: 0.5s;
   }
 
   li {
@@ -83,6 +85,7 @@ nav {
       padding: 0.5em;
       font-size: 1.3em;
       text-align: right;
+      transition: 0.3s;
       &:hover {
         font-weight: bold;
       }

@@ -9,6 +9,7 @@ import {
   frontendData,
   backendData,
   learningData,
+  techStackData,
 } from '../../persistentData/skill_details.js';
 export default {
   props: ['skillsData'],
@@ -18,6 +19,7 @@ export default {
       backendSkill: frontendData,
       frontendSkill: backendData,
       currentLearning: learningData,
+      techStack: techStackData,
     };
   },
   mounted() {
@@ -25,8 +27,10 @@ export default {
       this.selector = this.backendSkill;
     } else if (this.skillsData === 'frontendstack') {
       this.selector = this.frontendSkill;
-    } else {
+    } else if (this.skillsData === 'learning') {
       this.selector = this.currentLearning;
+    } else {
+      this.selector = this.techStack;
     }
   },
 };
@@ -38,6 +42,7 @@ export default {
   align-items: center;
   flex: 0 0 45%;
   margin-bottom: 0.5rem;
+  padding-left: 1rem;
   justify-content: space-between;
 }
 </style>

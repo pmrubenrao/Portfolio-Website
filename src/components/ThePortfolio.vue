@@ -20,15 +20,9 @@
           DynamoDB, SNS & OAuth3.0.
         </div>
       </div>
-      <div class="tech-stack">
-        <div class="container">
-          <div class="tech-stack-header">Tech Stack:</div>
-          <li class="tech-stack-list ">Node js</li>
-          <li class="tech-stack-list ">AWS lambda functions</li>
-          <li class="tech-stack-list ">API Gateway</li>
-          <li class="tech-stack-list ">GraphQL</li>
-        </div>
-      </div>
+      <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
+      <the-list skills-data="techStackData"></the-list>
+
       <div class="pf-roles-header">Role and challenges:</div>
       <li class="tech-stack-list ">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -50,6 +44,14 @@
   </section>
 </template>
 
+<script>
+import TheSubHeader from './TheSubHeader.vue';
+import TheList from './TheList.vue';
+export default {
+  components: { TheSubHeader, TheList },
+};
+</script>
+
 <style lang="scss" scoped>
 section {
   /* margin: 0 1rem 0 1rem; */
@@ -57,7 +59,7 @@ section {
   padding: 1em 2em;
   max-width: 47.5em;
   margin: 0 auto 0 auto;
-  list-style-type: none;
+  // list-style-type: none;
 }
 
 .header-layout {
