@@ -12,11 +12,9 @@ const router = createRouter({
   routes: [
     { path: '/portfolio', component: ThePortfolio },
     { path: '/about', component: LandingPage },
+    { path: '/', component: LandingPage },
   ],
 });
 const app = createApp(App);
 app.use(router);
-// app.component('navigation-menu', NavigationMenu);
-// app.component('about-me', AboutMe);
-// app.component('about-me', TheSubHeader);
 app.mount('#app');

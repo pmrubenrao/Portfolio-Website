@@ -2,7 +2,10 @@
   <section>
     <div class="navbar">
       <div class="container">
-        <a class="logo" href="index.html">Ruben <span>Rao</span></a>
+        <!-- <a class="logo" href="index.html">Ruben <span>Rao</span></a> -->
+        <router-link class="logo" to="/about"
+          >Ruben <span>Rao</span></router-link
+        >
         <img
           @click="toggleMobileMenu()"
           class="mobile-menu"
@@ -18,7 +21,6 @@
           />
           <ul class="primary-nav">
             <li><router-link to="/about">About</router-link></li>
-            <!-- <li><a href="portfolio.html">Porfolio</a></li> -->
             <li><router-link to="/portfolio">Porfolio</router-link></li>
             <li><a href="https://serverless.world">Blog</a></li>
             <li class="btn-open"><a href="contact.html">Contact</a></li>

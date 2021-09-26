@@ -11,8 +11,6 @@ import NavigationMenu from './components/NavigationMenu.vue';
 export default {
   components: {
     'navigation-menu': NavigationMenu,
-    // AboutMe,
-    // GenericList,
   },
 };
 </script>
