@@ -10,10 +10,18 @@ import LandingPage from './components/LandingPage.vue';
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/portfolio', component: ThePortfolio },
+    { path: '/', redirect: '/about' },
     { path: '/about', component: LandingPage },
-    { path: '/', component: LandingPage },
+    { path: '/portfolio', component: ThePortfolio },
+    // { path: '/', component: LandingPage },
+    { path: '/:notFound(.*)', redirect: '/about' },
   ],
+  scrollBehaviour(savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    }
+    return { left: 0, top: 0 };
+  },
 });
 const app = createApp(App);
 app.use(router);

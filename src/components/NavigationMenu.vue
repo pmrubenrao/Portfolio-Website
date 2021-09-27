@@ -20,7 +20,9 @@
             alt="Close Navigation"
           />
           <ul class="primary-nav">
-            <li><router-link to="/about">About</router-link></li>
+            <li>
+              <router-link to="/about">About</router-link>
+            </li>
             <li><router-link to="/portfolio">Porfolio</router-link></li>
             <li><a href="https://serverless.world">Blog</a></li>
             <li class="btn-open"><a href="contact.html">Contact</a></li>
@@ -86,8 +88,9 @@ nav {
       display: block;
       padding: 0.5em;
       font-size: 1.3em;
+      // font-weight: 400;
       text-align: right;
-      transition: 0.3s;
+      // transition: 0.3s;
       &:hover {
         font-weight: bold;
       }
