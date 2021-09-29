@@ -47,8 +47,8 @@
 </template>
 
 <script>
-import TheSubHeader from './TheSubHeader.vue';
-import TheList from './TheList.vue';
+import TheSubHeader from '../components/TheSubHeader.vue';
+import TheList from '../components/TheList.vue';
 export default {
   components: { TheSubHeader, TheList },
 };
@@ -56,12 +56,12 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  /* margin: 0 1rem 0 1rem; */
-  // padding: 1em 2em 1em 2em;
+  //   /* margin: 0 1rem 0 1rem; */
+  //   // padding: 1em 2em 1em 2em;
   padding: 1em 2em;
   max-width: 47.5em;
   margin: 0 auto 0 auto;
-  // list-style-type: none;
+  //   // list-style-type: none;
 }
 
 .header-layout {
@@ -69,25 +69,26 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-top: 0em;
     .header-layout-patch {
       font-weight: 700;
       text-transform: uppercase;
       width: 100%;
-      margin: 1rem 0;
+      margin: 0rem 0;
       letter-spacing: 0.2rem;
       border-bottom: 0.2rem solid var(--primary-color);
     }
   }
 }
 section.pf-main-header {
-  max-width: 47.5em;
-  margin: 0 auto 0 auto;
-  padding: 5em 2em 1em 2em;
+  // max-width: 47.5em;
+  // margin: 0 auto 0 auto;
+  // padding: 5em 2em 1em 2em;
   .container {
     h1 {
       text-transform: uppercase;
       font-size: 2.5em;
-      margin-top: 0.2em;
+      margin-top: 1.2em;
     }
   }
 }
@@ -128,37 +129,6 @@ section.pf-exp {
   }
   li {
     margin-bottom: 0.5rem;
-  }
-}
-
-.tech-stack {
-  .container {
-    // margin: 0rem;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-bottom: 0.5rem;
-
-    // background: #20272e;
-    // padding: 0 0 1.5em 0;
-    .tech-stack-list {
-      // display: flex;
-      // align-items: center;
-      // flex: 0 0 45%;
-      margin-bottom: 0.5rem;
-      justify-content: space-between;
-      li {
-        list-style-type: circle;
-      }
-    }
-    .tech-stack-header {
-      font-weight: 700;
-      text-transform: uppercase;
-      width: 100%;
-      margin: 1rem 0;
-      letter-spacing: 0.2rem;
-    }
   }
 }
 </style>

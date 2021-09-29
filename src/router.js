@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import ThePortfolio from './components/ThePortfolio.vue';
-import LandingPage from './components/LandingPage.vue';
+import ThePortfolio from './pages/ThePortfolio.vue';
+import LandingPage from './pages/LandingPage.vue';
 
 const router = createRouter({
   history: createWebHistory(),
