@@ -4,8 +4,8 @@
     :key="blogDetail.title"
     class="blog-layout"
   >
-    <a href="https://serverless.world/videohost.html">{{ blogDetail.title }}</a>
-    <small>Sun August 30 2020 • 7 min read</small>
+    <a :href="blogDetail.link">{{ blogDetail.title }}</a>
+    <small>{{ blogDetail.date }}</small>
     <div>{{ blogDetail.description }}</div>
   </div>
 </template>

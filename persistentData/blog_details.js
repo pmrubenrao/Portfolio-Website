@@ -22,7 +22,7 @@ const blogData = [
   },
   {
     title: 'Full-stack serverless through AWS Amplify',
-    date: 'Full-stack serverless through AWS Amplify',
+    date: 'Sun Jan 10 2021 • 4 min read',
     link: 'https://serverless.world/fullStackServerless.html',
     description:
       'The blog demonstrates how to create a Sign-In page with the least effort using the AWS service Cognito and setting up of infrastructure set up to code deployment its all managed by the AWS Amplify.',
