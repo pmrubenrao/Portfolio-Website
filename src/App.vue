@@ -24,6 +24,7 @@ export default {
   :root {
     --primary-color: #007af3;
   }
+
   body {
     background: #f2f2f2;
     margin: 0px;

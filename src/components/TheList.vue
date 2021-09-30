@@ -9,8 +9,14 @@ import {
   frontendData,
   backendData,
   learningData,
-  techStackData,
+  // techStackData,
 } from '../../persistentData/skill_details.js';
+import {
+  rcDeutscheBankData,
+  rcTechMData,
+  rcAmdocsData,
+} from '../../persistentData/rolesChallenges.js';
+
 export default {
   props: ['skillsData'],
   data() {
@@ -19,7 +25,9 @@ export default {
       backendSkill: frontendData,
       frontendSkill: backendData,
       currentLearning: learningData,
-      techStack: techStackData,
+      rcDeutscheBank: rcDeutscheBankData,
+      rcTechM: rcTechMData,
+      rcAmdocs: rcAmdocsData,
     };
   },
   mounted() {
@@ -29,8 +37,12 @@ export default {
       this.selector = this.frontendSkill;
     } else if (this.skillsData === 'learning') {
       this.selector = this.currentLearning;
-    } else {
-      this.selector = this.techStack;
+    } else if (this.skillsData === 'rcDeutscheBank') {
+      this.selector = this.rcDeutscheBank;
+    } else if (this.skillsData === 'rcTechM') {
+      this.selector = this.rcTechM;
+    } else if (this.skillsData === 'rcAmdocs') {
+      this.selector = this.rcAmdocs;
     }
   },
 };
