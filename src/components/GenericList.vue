@@ -40,22 +40,22 @@ section {
   padding: 1em 2em;
   max-width: 47.5em;
   margin: 0 auto 0 auto;
-  list-style-type: none;
+  // list-style-type: none;
 }
 
-.header-layout {
-  .container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    .header-layout-patch {
-      font-weight: 700;
-      text-transform: uppercase;
-      width: 100%;
-      margin: 1rem 0;
-      letter-spacing: 0.2rem;
-      border-bottom: 0.2rem solid var(--primary-color);
-    }
-  }
-}
+// .header-layout {
+//   .container {
+//     display: flex;
+//     justify-content: space-between;
+//     flex-wrap: wrap;
+//     .header-layout-patch {
+//       font-weight: 700;
+//       text-transform: uppercase;
+//       width: 100%;
+//       margin: 1rem 0;
+//       letter-spacing: 0.2rem;
+//       border-bottom: 0.2rem solid var(--primary-color);
+//     }
+//   }
+// }
 </style>

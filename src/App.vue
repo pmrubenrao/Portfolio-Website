@@ -30,5 +30,21 @@ export default {
     margin: 0px;
     font-family: 'Poppins';
   }
+
+  .header-layout {
+    .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .header-layout-patch {
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 100%;
+        margin: 1rem 0;
+        letter-spacing: 0.2rem;
+        border-bottom: 0.2rem solid var(--primary-color);
+      }
+    }
+  }
 }
 </style>

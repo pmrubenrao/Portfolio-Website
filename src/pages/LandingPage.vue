@@ -10,7 +10,6 @@ import GenericList from '../components/GenericList.vue';
 // import TheBlogPost from '../components/TheBlogPost.vue';
 export default {
   components: {
-    // 'navigation-menu': NavigationMenu,
     AboutMe,
     GenericList,
     // TheBlogPost,

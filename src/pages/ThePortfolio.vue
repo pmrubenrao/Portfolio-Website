@@ -12,11 +12,10 @@
   </section>
 
   <section class="pf-exp">
-    <div class="container">
-      <div>
-        Explaination of DB project
-      </div>
+    <div>
+      Explaination of DB project
     </div>
+
     <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
     <the-list skills-data="backendstack"></the-list>
 
@@ -31,11 +30,10 @@
   </section>
 
   <section class="pf-exp">
-    <div class="container">
-      <div>
-        Explaination of TechM project
-      </div>
+    <div>
+      Explaination of TechM project
     </div>
+
     <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
     <the-list skills-data="frontendstack"></the-list>
 
@@ -50,13 +48,11 @@
   </section>
 
   <section class="pf-exp">
-    <div class="container">
-      <div>
-        Explaination of Amdocs project
-      </div>
+    <div>
+      Explaination of Amdocs project
     </div>
     <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
-    <the-list skills-data="frontendstack"></the-list>
+    <the-list skills-data="devOpsStack"></the-list>
 
     <the-sub-header sub-header-data="ROLE AND CHALLENGES:"></the-sub-header>
     <the-list skills-data="rcAmdocs"></the-list>
@@ -73,30 +69,11 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  //   /* margin: 0 1rem 0 1rem; */
-  //   // padding: 1em 2em 1em 2em;
   padding: 1em 2em;
   max-width: 47.5em;
   margin: 0 auto 0 auto;
-  //   // list-style-type: none;
 }
 
-.header-layout {
-  .container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 0em;
-    .header-layout-patch {
-      font-weight: 700;
-      text-transform: uppercase;
-      width: 100%;
-      margin: 0rem 0;
-      letter-spacing: 0.2rem;
-      border-bottom: 0.2rem solid var(--primary-color);
-    }
-  }
-}
 section.pf-main-header {
   .container {
     h1 {
