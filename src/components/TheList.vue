@@ -60,6 +60,7 @@ export default {
   margin-bottom: 0.5rem;
   padding-left: 1rem;
   justify-content: space-between;
-  list-style-type: circle;
+  vertical-align: baseline;
+  list-style-type: disc;
 }
 </style>
