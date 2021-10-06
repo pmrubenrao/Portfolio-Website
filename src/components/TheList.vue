@@ -1,7 +1,17 @@
 <template>
-  <li v-for="skill in selector" :key="skill" class="list-layout">
-    {{ skill }}
-  </li>
+  <template v-if="rolesData === 'roles'" class="list-roles-layout">
+    <ul>
+      <li v-for="skill in selector" :key="skill">
+        {{ skill }}
+      </li>
+    </ul>
+  </template>
+
+  <template v-else>
+    <li v-for="skill in selector" :key="skill" class="list-layout">
+      {{ skill }}
+    </li>
+  </template>
 </template>
 
 <script>
@@ -18,8 +28,9 @@ import {
 } from '../../persistentData/rolesChallenges.js';
 
 export default {
-  props: ['skillsData'],
+  props: ['skillsData', 'rolesData'],
   data() {
+    console.log(this.rolesData);
     return {
       selector: [],
       backendSkill: frontendData,
@@ -52,15 +63,23 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+ul {
+  margin: 0;
+  padding-inline-start: 1em;
+  // padding-bottom: 10em;
+  .list-roles-layout {
+    padding-inline: 10rem;
+  }
+}
 .list-layout {
   display: list-item;
   align-items: center;
   flex: 0 0 45%;
   margin-left: 0;
   margin-bottom: 0.5rem;
-  padding-left: 1rem;
+  // padding-left: 1rem;
   justify-content: space-between;
-  vertical-align: baseline;
-  list-style-type: disc;
+  vertical-align: text-bottom;
+  list-style-type: none;
 }
 </style>
