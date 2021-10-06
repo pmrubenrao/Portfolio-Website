@@ -10,9 +10,9 @@
       <h1 class="header-layout-patch">Backend Developer @Deutsche bank</h1>
 
       <!-- <section class="pf-exp"> -->
-      <div>
+      <!-- <div>
         Explaination of DB project
-      </div>
+      </div> -->
 
       <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
       <the-list skills-data="backendstack"></the-list>
@@ -25,12 +25,12 @@
 
   <section class="header-layout">
     <div class="container">
-      <h1 class="header-layout-patch">Frontend Developer @Tech Mahindra</h1>
+      <h1 class="header-layout-patch">FullStack Developer @Tech Mahindra</h1>
 
       <!-- <section class="pf-exp"> -->
-      <div>
+      <!-- <div>
         Explaination of TechM project
-      </div>
+      </div> -->
 
       <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
       <the-list skills-data="frontendstack"></the-list>
@@ -46,9 +46,9 @@
       <h1 class="header-layout-patch">DevOps Engineer @Amdocs DVCI</h1>
 
       <!-- <section class="pf-exp"> -->
-      <div>
+      <!-- <div>
         Explaination of Amdocs project
-      </div>
+      </div> -->
       <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
       <the-list skills-data="devOpsStack"></the-list>
 
@@ -79,7 +79,8 @@ section.pf-main-header {
     h1 {
       text-transform: uppercase;
       font-size: 2.5em;
-      margin-top: 1.2em;
+      padding: 1em 0em 0em;
+      margin: 0;
     }
   }
 }

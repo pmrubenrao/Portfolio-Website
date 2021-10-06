@@ -25,7 +25,7 @@
             </li>
             <li><router-link to="/portfolio">Porfolio</router-link></li>
             <li><a href="https://serverless.world">Blog</a></li>
-            <li class="btn-open"><a href="contact.html">Contact</a></li>
+            <li><router-link to="/contact">Contact</router-link></li>
           </ul>
         </nav>
       </div>

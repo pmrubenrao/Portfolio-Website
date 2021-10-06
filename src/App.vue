@@ -23,6 +23,13 @@ export default {
 
   :root {
     --primary-color: #007af3;
+    // // --primary: #555bff;
+    // --secondary: #22d2a0;
+    // --background: white;
+    // --green: #1fc11b;
+    // --yellow: #ffd913;
+    // --orange: #ff9c55;
+    // --red: #ff5555;
   }
 
   body {
