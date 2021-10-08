@@ -1,82 +1,52 @@
 <template>
-  <div class="card">
-    <p>Contact Me</p>
-
-    <a href="https://www.linkedin.com/in/ruben-rao-737a241ba/"
-      ><img class="icon" src="../assets/linkedin.png" alt="linkedIn"
-    /></a>
-    <a href="https://github.com/pmrubenrao"
-      ><img class="icon" src="../assets/github.png" alt="github"
-    /></a>
-    <a href="https://www.instagram.com/ruben_rao/"
-      ><img class="icon" src="../assets/instagram.png" alt="instagram"
-    /></a>
-    <a href="mailto:pmrubenrao@gmail.com"
-      ><img class="icon" src="../assets/mail.png" alt="mail"
-    /></a>
-  </div>
+  <section class="pf-main-header">
+    <div class="container">
+      <h1>Contact Me</h1>
+      <div class="referencelink">
+        <a href="https://github.com/pmrubenrao"
+          ><img alt="#" src="../assets/github.svg"
+        /></a>
+        <a href="https://stackoverflow.com/users/5692366/ruben"
+          ><img alt="#" src="../assets/stackoverflow.svg"
+        /></a>
+        <a href="mailto:pmrubenrao1010@gmail.com"
+          ><img alt="#" src="../assets/gmail.svg"
+        /></a>
+        <a href="https://www.instagram.com/ruben_rao/"
+          ><img alt="#" src="../assets/instagram.svg"
+        /></a>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-:root {
-  --primary: #555bff;
-  --secondary: #22d2a0;
-  --background: white;
-  --green: #1fc11b;
-  --yellow: #ffd913;
-  --orange: #ff9c55;
-  --red: #ff5555;
-}
-.card {
-  background-color: var(--background);
-  display: block;
-  width: 300px;
-  min-height: 90px;
-  border: 3px solid var(--primary);
-  padding: 15px;
-  margin: calc(55vh - 100px) auto 0 auto;
-  box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
-    20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
-    30px -30px 0 -3px var(--background), 30px -30px var(--orange),
-    40px -40px 0 -3px var(--background), 40px -40px var(--red);
-  transition: box-shadow 1s, top 1s, left 1s;
-  position: relative;
-  top: 0;
-  left: 0;
-  cursor: pointer;
+section {
+  padding: 1em 2em;
+  max-width: 60em;
+  margin: 0 auto 0 auto;
 }
 
-.card:hover {
-  top: -40px;
-  left: 40px;
-  box-shadow: 0 0 0 -3px var(--background), 0 0 0 0 var(--green),
-    0 0 0 -3px var(--background), 0 0 0 0 var(--yellow),
-    0 0 0 -3px var(--background), 0 0 0 0 var(--orange),
-    0 0 0 -3px var(--background), 0 0 0 0 var(--red);
-}
-
-.card p {
-  font-size: 1.5em;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 10px;
-}
-
-.card .icon {
-  position: relative;
-  padding: 1em 1em;
-  /* Adjust these values accordingly */
-  top: 15px;
-  left: 1em;
-  // right: 10em;
-  width: 20%;
-  height: auto;
-  cursor: pointer;
+section.pf-main-header {
+  padding: 10em;
+  .container {
+    h1 {
+      text-transform: uppercase;
+      font-size: 3em;
+      padding: 1em 0em 0em;
+      margin: 0;
+      text-align: center;
+    }
+    .referencelink {
+      margin: 1em;
+      text-align: center;
+      img {
+        width: 100%;
+        padding: 2em;
+        width: 120px;
+        height: 120px;
+      }
+    }
+  }
 }
 </style>
