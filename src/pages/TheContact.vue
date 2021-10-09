@@ -1,7 +1,7 @@
 <template>
   <section class="pf-main-header">
     <div class="container">
-      <h1>Contact Me</h1>
+      <h1>Reach Me at:</h1>
       <div class="referencelink">
         <a href="https://github.com/pmrubenrao"
           ><img alt="#" src="../assets/github.svg"
@@ -23,12 +23,12 @@
 <style lang="scss" scoped>
 section {
   padding: 1em 2em;
-  max-width: 60em;
+  max-width: 47.5em;
   margin: 0 auto 0 auto;
 }
 
 section.pf-main-header {
-  padding: 10em;
+  // padding: 10em;
   .container {
     h1 {
       text-transform: uppercase;
@@ -38,7 +38,7 @@ section.pf-main-header {
       text-align: center;
     }
     .referencelink {
-      margin: 1em;
+      // margin: 1em;
       text-align: center;
       img {
         width: 100%;
