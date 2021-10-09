@@ -21,11 +21,25 @@
           />
           <ul class="primary-nav">
             <li>
-              <router-link to="/about">About</router-link>
+              <router-link to="/about" @click="toggleMobileMenu()"
+                >About</router-link
+              >
             </li>
-            <li><router-link to="/portfolio">Porfolio</router-link></li>
-            <li><a href="https://serverless.world">Blog</a></li>
-            <li><router-link to="/contact">Contact</router-link></li>
+            <li>
+              <router-link to="/portfolio" @click="toggleMobileMenu()"
+                >Porfolio</router-link
+              >
+            </li>
+            <li>
+              <a href="https://serverless.world" @click="toggleMobileMenu()"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <router-link to="/contact" @click="toggleMobileMenu()"
+                >Contact</router-link
+              >
+            </li>
           </ul>
         </nav>
       </div>

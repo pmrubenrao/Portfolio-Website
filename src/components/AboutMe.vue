@@ -5,8 +5,9 @@
       <h1>I am Back-end developer</h1>
       <p>
         HI! My name is Ruben and I’ve been working as a backend developer for
-        over 6 years. I do expose myself to the realm of frontend development in
-        my projects to move towards my goal of becoming a Full Stack Developer.
+        over 6 years. Recently i've been expose to the realm of frontend
+        development in my projects to move towards my goal of becoming a Full
+        Stack Developer.
         <br />
         <br />
         When I first entered into the frontend development I get overwhelmed

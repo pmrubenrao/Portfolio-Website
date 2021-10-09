@@ -1,7 +1,7 @@
 <template>
   <section class="pf-main-header">
     <div class="container">
-      <h1>Reach Me at:</h1>
+      <h1>Reach Me :</h1>
       <div class="referencelink">
         <a href="https://github.com/pmrubenrao"
           ><img alt="#" src="../assets/github.svg"
