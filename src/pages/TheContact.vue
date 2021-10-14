@@ -114,7 +114,7 @@ section.pf-main-header {
     padding: 0;
     border-radius: 50px;
     background: #fdfdfd;
-    border: 2px solid var(--primary-color);
+    border: 2px solid #000000;
     margin: 10px;
     transition: 0.5s;
   }
@@ -127,7 +127,7 @@ section.pf-main-header {
     left: 100%;
     margin-left: -45px;
     background-color: #fdfdfd;
-    color: #0099cc;
+    color: var(--primary-color);
   }
 
   .btn-slide:hover span.title {
@@ -142,7 +142,7 @@ section.pf-main-header {
 
   .btn-slide span.circle {
     display: block;
-    background-color: var(--primary-color);
+    background-color: #000000;
     color: #fff;
     position: absolute;
     float: left;
@@ -164,7 +164,7 @@ section.pf-main-header {
     margin: 0 auto;
     font-size: 16px;
     font-weight: bold;
-    color: #30abd5;
+    color: #000000;
     transition: 0.5s;
   }
 
