@@ -17,9 +17,55 @@
         /></a>
       </div>
     </div>
+
+    <div id="wrap">
+      <a
+        href="https://s3.amazonaws.com/portfolio.serverless.world/Ruben_rao.pdf"
+        class="btn-slide"
+      >
+        <span class="circle"><i class="fa fa-rocket"></i></span>
+        <span class="title">Download Resume</span>
+        <span class="title-hover">Click here</span>
+      </a>
+    </div>
   </section>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      url: 'https://s3.amazonaws.com/portfolio.serverless.world/Ruben_rao.pdf',
+      isActive: false,
+    };
+  },
+
+  // methods: {
+  //   forceFileDownload(response) {
+  //     const url = window.URL.createObjectURL(new Blob([response.data]));
+  //     const link = document.createElement('a');
+  //     link.href = url;
+  //     link.setAttribute('download', 'Ruben_rao.pdf'); //or any other extension
+  //     document.body.appendChild(link);
+  //     link.click();
+  //   },
+  //   downloadResume() {
+  //     this.isActive = !this.isActive;
+  //     if (this.isActive) {
+  //       this.$http({
+  //         method: 'get',
+  //         url: this.url,
+  //         responseType: 'arraybuffer',
+  //       })
+  //         .then((response) => {
+  //           this.forceFileDownload(response);
+  //         })
+  //         .catch(() => console.log('error occured'));
+  //     }
+  //   },
+  // },
+};
+</script>
 <style lang="scss" scoped>
 section {
   padding: 1em 2em;
@@ -47,6 +93,88 @@ section.pf-main-header {
         height: 120px;
       }
     }
+  }
+  body {
+    margin: 50px;
+    font-family: helvetica, sans-serif;
+    background: #e9f0f4;
+  }
+
+  #wrap {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .btn-slide {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 240px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 50px;
+    background: #fdfdfd;
+    border: 2px solid var(--primary-color);
+    margin: 10px;
+    transition: 0.5s;
+  }
+
+  .btn-slide:hover {
+    background-color: var(--primary-color);
+  }
+
+  .btn-slide:hover span.circle {
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fdfdfd;
+    color: #0099cc;
+  }
+
+  .btn-slide:hover span.title {
+    left: 40px;
+    opacity: 0;
+  }
+
+  .btn-slide:hover span.title-hover {
+    opacity: 1;
+    left: 40px;
+  }
+
+  .btn-slide span.circle {
+    display: block;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 5px;
+    line-height: 42px;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    border-radius: 50%;
+  }
+
+  .btn-slide span.title,
+  .btn-slide span.title-hover {
+    position: absolute;
+    left: 60px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #30abd5;
+    transition: 0.5s;
+  }
+
+  .btn-slide span.title-hover {
+    left: 80px;
+    opacity: 0;
+  }
+
+  .btn-slide span.title-hover {
+    color: #fff;
   }
 }
 </style>
