@@ -112,9 +112,9 @@ section.pf-main-header {
     width: 240px;
     line-height: 50px;
     padding: 0;
-    border-radius: 50px;
+    border-radius: 5em;
     background: #fdfdfd;
-    border: 2px solid #000000;
+    border: 4px solid #000000;
     margin: 10px;
     transition: 0.5s;
   }
