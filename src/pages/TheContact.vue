@@ -3,16 +3,16 @@
     <div class="container">
       <h1>Reach Me :</h1>
       <div class="referencelink">
-        <a href="https://github.com/pmrubenrao"
+        <a href="https://github.com/pmrubenrao" target="_blank"
           ><img alt="#" src="../assets/github.svg"
         /></a>
-        <a href="https://stackoverflow.com/users/5692366/ruben"
+        <a href="https://stackoverflow.com/users/5692366/ruben" target="_blank"
           ><img alt="#" src="../assets/stackoverflow.svg"
         /></a>
-        <a href="mailto:pmrubenrao1010@gmail.com"
+        <a href="mailto:pmrubenrao1010@gmail.com" target="_blank"
           ><img alt="#" src="../assets/gmail.svg"
         /></a>
-        <a href="https://www.instagram.com/ruben_rao/"
+        <a href="https://www.instagram.com/ruben_rao/" target="_blank"
           ><img alt="#" src="../assets/instagram.svg"
         /></a>
       </div>
@@ -21,6 +21,7 @@
     <div id="wrap">
       <a
         href="https://s3.amazonaws.com/portfolio.serverless.world/Ruben_rao.pdf"
+        target="_blank"
         class="btn-slide"
       >
         <span class="circle"><i class="fa fa-rocket"></i></span>

@@ -31,7 +31,10 @@
               >
             </li>
             <li>
-              <a href="https://serverless.world" @click="toggleMobileMenu()"
+              <a
+                href="https://serverless.world"
+                @click="toggleMobileMenu()"
+                target="_blank"
                 >Blog</a
               >
             </li>
