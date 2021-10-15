@@ -30,7 +30,6 @@ import {
 export default {
   props: ['skillsData', 'rolesData'],
   data() {
-    console.log(this.rolesData);
     return {
       selector: [],
       backendSkill: frontendData,
