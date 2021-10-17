@@ -19,13 +19,14 @@
     </div>
 
     <div id="wrap">
-      <a
-        href="https://s3.amazonaws.com/portfolio.serverless.world/Ruben_rao.pdf"
-        target="_blank"
-        class="btn-slide"
-      >
+      <a href="https://bit.ly/3j7FIUQ" target="_blank" class="btn-slide">
         <span class="circle"><i class="fa fa-rocket"></i></span>
         <span class="title">Download Resume</span>
+        <span class="title-hover">Click here</span>
+      </a>
+      <a href="https://bit.ly/3n4VBMG" target="_blank" class="btn-slide">
+        <span class="circle"><i class="fa fa-rocket"></i></span>
+        <span class="title"> Resume Template</span>
         <span class="title-hover">Click here</span>
       </a>
     </div>
@@ -36,35 +37,10 @@
 export default {
   data() {
     return {
-      url: 'https://s3.amazonaws.com/portfolio.serverless.world/Ruben_rao.pdf',
+      url: 'https://bit.ly/3j7FIUQ',
       isActive: false,
     };
   },
-
-  // methods: {
-  //   forceFileDownload(response) {
-  //     const url = window.URL.createObjectURL(new Blob([response.data]));
-  //     const link = document.createElement('a');
-  //     link.href = url;
-  //     link.setAttribute('download', 'Ruben_rao.pdf'); //or any other extension
-  //     document.body.appendChild(link);
-  //     link.click();
-  //   },
-  //   downloadResume() {
-  //     this.isActive = !this.isActive;
-  //     if (this.isActive) {
-  //       this.$http({
-  //         method: 'get',
-  //         url: this.url,
-  //         responseType: 'arraybuffer',
-  //       })
-  //         .then((response) => {
-  //           this.forceFileDownload(response);
-  //         })
-  //         .catch(() => console.log('error occured'));
-  //     }
-  //   },
-  // },
 };
 </script>
 <style lang="scss" scoped>

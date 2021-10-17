@@ -15,9 +15,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 body {
-  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
