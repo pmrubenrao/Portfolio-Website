@@ -1,62 +1,64 @@
 <template>
-  <section class="pf-main-header">
-    <div class="container">
-      <h1>Professional experience</h1>
-    </div>
-  </section>
+  <div>
+    <section class="pf-main-header">
+      <div class="container">
+        <h1>Professional experience</h1>
+      </div>
+    </section>
 
-  <section class="header-layout">
-    <div class="container">
-      <h1 class="header-layout-patch">Backend Developer @Deutsche bank</h1>
+    <section class="header-layout">
+      <div class="container">
+        <h1 class="header-layout-patch">Backend Developer @Deutsche bank</h1>
 
-      <!-- <section class="pf-exp"> -->
-      <!-- <div>
+        <!-- <section class="pf-exp"> -->
+        <!-- <div>
         Explaination of DB project
       </div> -->
 
-      <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
-      <the-list skills-data="backendstack"></the-list>
+        <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
+        <the-list skills-data="backendstack"></the-list>
 
-      <the-sub-header sub-header-data="ROLE AND CHALLENGES:"></the-sub-header>
-      <the-list skills-data="rcDeutscheBank" rolesData="roles"></the-list>
-      <!-- </section> -->
-    </div>
-  </section>
+        <the-sub-header sub-header-data="ROLE AND CHALLENGES:"></the-sub-header>
+        <the-list skills-data="rcDeutscheBank" rolesData="roles"></the-list>
+        <!-- </section> -->
+      </div>
+    </section>
 
-  <section class="header-layout">
-    <div class="container">
-      <h1 class="header-layout-patch">FullStack Developer @Tech Mahindra</h1>
+    <section class="header-layout">
+      <div class="container">
+        <h1 class="header-layout-patch">FullStack Developer @Tech Mahindra</h1>
 
-      <!-- <section class="pf-exp"> -->
-      <!-- <div>
+        <!-- <section class="pf-exp"> -->
+        <!-- <div>
         Explaination of TechM project
       </div> -->
 
-      <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
-      <the-list skills-data="frontendstack"></the-list>
+        <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
+        <the-list skills-data="frontendstack"></the-list>
 
-      <the-sub-header sub-header-data="ROLE AND CHALLENGES:"></the-sub-header>
-      <the-list skills-data="rcTechM" rolesData="roles"></the-list>
-      <!-- </section> -->
-    </div>
-  </section>
+        <the-sub-header sub-header-data="ROLE AND CHALLENGES:"></the-sub-header>
+        <the-list skills-data="rcTechM" rolesData="roles"></the-list>
+        <!-- </section> -->
+      </div>
+    </section>
 
-  <section class="header-layout">
-    <div class="container">
-      <h1 class="header-layout-patch">DevOps Engineer @Amdocs DVCI</h1>
+    <section class="header-layout">
+      <div class="container">
+        <h1 class="header-layout-patch">DevOps Engineer @Amdocs DVCI</h1>
 
-      <!-- <section class="pf-exp"> -->
-      <!-- <div>
+        <!-- <section class="pf-exp"> -->
+        <!-- <div>
         Explaination of Amdocs project
       </div> -->
-      <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
-      <the-list skills-data="devOpsStack"></the-list>
+        <the-sub-header sub-header-data="TECH STACK"></the-sub-header>
+        <the-list skills-data="devOpsStack"></the-list>
 
-      <the-sub-header sub-header-data="ROLE AND CHALLENGES:"></the-sub-header>
-      <the-list skills-data="rcAmdocs" rolesData="roles"></the-list>
-      <!-- </section> -->
-    </div>
-  </section>
+        <the-sub-header sub-header-data="ROLE AND CHALLENGES:"></the-sub-header>
+        <the-list skills-data="rcAmdocs" rolesData="roles"></the-list>
+        <!-- </section> -->
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>

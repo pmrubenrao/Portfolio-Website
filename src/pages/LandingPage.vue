@@ -1,6 +1,8 @@
 <template>
-  <about-me></about-me>
-  <generic-list header-list="header-layout-patch"></generic-list>
+  <div>
+    <about-me></about-me>
+    <generic-list header-list="header-layout-patch"></generic-list>
+  </div>
 </template>
 
 <script>
@@ -14,19 +16,3 @@ export default {
   },
 };
 </script>
-
-<style>
-body {
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-</style>

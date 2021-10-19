@@ -1,7 +1,11 @@
 <template>
   <navigation-menu></navigation-menu>
   <main>
-    <router-view></router-view>
+    <router-view v-slot="slotProps" mode="out-in">
+      <transition name="route">
+        <component :is="slotProps.Component"></component>
+      </transition>
+    </router-view>
   </main>
 </template>
 
@@ -33,14 +37,7 @@ export default {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
-  @keyframes fadeInAnimation {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+
   .header-layout {
     .container {
       display: flex;
@@ -56,5 +53,49 @@ export default {
       }
     }
   }
+
+  .route-enter-from,
+  .route-leave-to {
+    opacity: 0;
+  }
+
+  .route-enter-active {
+    transition: opacity 0.7s ease-out;
+  }
+
+  .route-leave-active {
+    transition: opacity 0.1s ease-in;
+  }
+
+  .route-enter-to,
+  .route-leave-from {
+    opacity: 1;
+  }
+
+  // .route-enter-from {
+  // }
+  // .route-enter-active {
+  //   animation: slide-scale 0.4s ease-out;
+  // }
+  // .route-enter-to {
+  // }
+
+  // .route-leave-active {
+  //   animation: slide-scale 0.4s ease-in;
+  // }
+
+  // @keyframes slide-scale {
+  //   0% {
+  //     transform: translateX(0) scale(1);
+  //   }
+
+  //   70% {
+  //     transform: translateX(-120px) scale(1.1);
+  //   }
+
+  //   100% {
+  //     transform: translateX(-150px) scale(1);
+  //   }
+  // }
 }
 </style>
