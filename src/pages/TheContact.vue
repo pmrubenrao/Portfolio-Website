@@ -1,36 +1,40 @@
 <template>
-  <section class="pf-main-header">
-    <div class="container">
-      <h1>Reach Me :</h1>
-      <div class="referencelink">
-        <a href="https://github.com/pmrubenrao" target="_blank"
-          ><img alt="#" src="../assets/github.svg"
-        /></a>
-        <a href="https://stackoverflow.com/users/5692366/ruben" target="_blank"
-          ><img alt="#" src="../assets/stackoverflow.svg"
-        /></a>
-        <a href="mailto:pmrubenrao1010@gmail.com" target="_blank"
-          ><img alt="#" src="../assets/gmail.svg"
-        /></a>
-        <a href="https://www.instagram.com/ruben_rao/" target="_blank"
-          ><img alt="#" src="../assets/instagram.svg"
-        /></a>
+  <div>
+    <section class="pf-main-header">
+      <div class="container">
+        <h1>Reach Me :</h1>
+        <div class="referencelink">
+          <a href="https://github.com/pmrubenrao" target="_blank"
+            ><img alt="#" src="../assets/github.svg"
+          /></a>
+          <a
+            href="https://stackoverflow.com/users/5692366/ruben"
+            target="_blank"
+            ><img alt="#" src="../assets/stackoverflow.svg"
+          /></a>
+          <a href="mailto:pmrubenrao1010@gmail.com" target="_blank"
+            ><img alt="#" src="../assets/gmail.svg"
+          /></a>
+          <a href="https://www.instagram.com/ruben_rao/" target="_blank"
+            ><img alt="#" src="../assets/instagram.svg"
+          /></a>
+        </div>
       </div>
-    </div>
 
-    <div id="wrap">
-      <a href="https://bit.ly/3j7FIUQ" target="_blank" class="btn-slide">
-        <span class="circle"><i class="fa fa-rocket"></i></span>
-        <span class="title">Download Resume</span>
-        <span class="title-hover">Click here</span>
-      </a>
-      <a href="https://bit.ly/3n4VBMG" target="_blank" class="btn-slide">
-        <span class="circle"><i class="fa fa-rocket"></i></span>
-        <span class="title"> Resume Template</span>
-        <span class="title-hover">Click here</span>
-      </a>
-    </div>
-  </section>
+      <div class="wrap">
+        <a href="https://bit.ly/3j7FIUQ" target="_blank" class="btn-slide">
+          <span class="circle"><i class="fa fa-rocket"></i></span>
+          <span class="title">Download Resume</span>
+          <span class="title-hover">Click here</span>
+        </a>
+        <a href="https://bit.ly/3n4VBMG" target="_blank" class="btn-slide">
+          <span class="circle"><i class="fa fa-rocket"></i></span>
+          <span class="title"> Resume Template</span>
+          <span class="title-hover">Click here</span>
+        </a>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -77,7 +81,7 @@ section.pf-main-header {
     background: #e9f0f4;
   }
 
-  #wrap {
+  .wrap {
     margin: 20px auto;
     text-align: center;
   }

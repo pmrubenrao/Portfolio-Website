@@ -60,42 +60,16 @@ export default {
   }
 
   .route-enter-active {
-    transition: opacity 0.7s ease-out;
+    transition: opacity 0.7s ease-in;
   }
 
-  .route-leave-active {
-    transition: opacity 0.1s ease-in;
-  }
+  // .route-leave-active {
+  //   transition: opacity 0.5s ease-out;
+  // }
 
   .route-enter-to,
   .route-leave-from {
     opacity: 1;
   }
-
-  // .route-enter-from {
-  // }
-  // .route-enter-active {
-  //   animation: slide-scale 0.4s ease-out;
-  // }
-  // .route-enter-to {
-  // }
-
-  // .route-leave-active {
-  //   animation: slide-scale 0.4s ease-in;
-  // }
-
-  // @keyframes slide-scale {
-  //   0% {
-  //     transform: translateX(0) scale(1);
-  //   }
-
-  //   70% {
-  //     transform: translateX(-120px) scale(1.1);
-  //   }
-
-  //   100% {
-  //     transform: translateX(-150px) scale(1);
-  //   }
-  // }
 }
 </style>
