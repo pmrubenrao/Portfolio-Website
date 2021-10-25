@@ -12,7 +12,6 @@ export default {
   components: {
     AboutMe,
     GenericList,
-    // TheBlogPost,
   },
 };
 </script>

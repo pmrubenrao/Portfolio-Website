@@ -15,6 +15,11 @@
           <a href="mailto:pmrubenrao1010@gmail.com" target="_blank"
             ><img alt="#" src="../assets/gmail.svg"
           /></a>
+          <a
+            href="https://www.linkedin.com/in/ruben-rao-737a241ba/"
+            target="_blank"
+            ><img alt="#" src="../assets/linkedin.svg"
+          /></a>
           <a href="https://www.instagram.com/ruben_rao/" target="_blank"
             ><img alt="#" src="../assets/instagram.svg"
           /></a>
@@ -69,7 +74,7 @@ section.pf-main-header {
       text-align: center;
       img {
         width: 100%;
-        padding: 2em;
+        padding: 1em;
         width: 120px;
         height: 120px;
       }
