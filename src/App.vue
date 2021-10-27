@@ -1,5 +1,6 @@
 <template>
-  <navigation-menu></navigation-menu>
+  <navigation-menu> </navigation-menu>
+  <!-- <dark-mode></dark-mode> -->
   <main>
     <router-view v-slot="slotProps" mode="out-in">
       <transition name="route">
@@ -11,10 +12,12 @@
 
 <script>
 import NavigationMenu from './components/NavigationMenu.vue';
+import DarkMode from './components/DarkMode.vue';
 
 export default {
   components: {
     'navigation-menu': NavigationMenu,
+    'dark-mode': DarkMode,
   },
 };
 </script>
@@ -24,10 +27,6 @@ export default {
 
 #app {
   font-family: Poppins;
-
-  :root {
-    --primary-color: #007af3;
-  }
 
   body {
     background: #f2f2f2;
@@ -70,6 +69,27 @@ export default {
   .route-enter-to,
   .route-leave-from {
     opacity: 1;
+  }
+
+  :root {
+    --primary-color: #007af3;
+    --background-color-primary: #ebebeb;
+    --background-color-secondary: #fafafa;
+    --accent-color: #cacaca;
+    --text-primary-color: #222;
+    --element-size: 4rem;
+  }
+
+  /* Define styles for the root window with dark - mode preference */
+  :root.dark-theme {
+    --background-color-primary: #1e1e1e;
+    --background-color-secondary: #2d2d30;
+    --accent-color: #3f3f3f;
+    --text-primary-color: #ddd;
+  }
+
+  .container {
+    background-color: var(--background-color-primary);
   }
 }
 </style>
