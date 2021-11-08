@@ -59,7 +59,7 @@ export default {
   }
 
   .route-enter-active {
-    transition: opacity 0.7s ease-in;
+    transition: opacity 0.4s ease-in;
   }
 
   // .route-leave-active {
