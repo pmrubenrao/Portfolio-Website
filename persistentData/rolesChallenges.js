@@ -1,5 +1,5 @@
 export const rcAmdocsData = [
-  "Implemented a 'serverless' architecture using API Gateway, Lambda, and Dynamo DB and deployed AWS Lambda code from Amazon S3 buckets.",
+  "Implemented 'serverless' architecture using API Gateway, Lambda, and Dynamo DB.",
   'Created a Lambda Deployment function and configured it to receive events from your S3 Bucket.',
   'Event-driven and scheduled AWS Lambda functions to trigger various AWS resources.',
   'Designing serverless web application using AWS lambda API gateway DynamoDB Stream.',
