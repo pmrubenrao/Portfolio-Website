@@ -136,7 +136,7 @@ nav {
   .logo {
     text-decoration: none;
     font-weight: 700;
-    // color: black;
+    color: var(--text-primary-color);
     font-size: 1.2em;
 
     span {
@@ -182,7 +182,7 @@ nav {
       display: flex;
     }
     a {
-      color: black;
+      color: var(--text-primary-color);
       font-size: 1em;
       padding: 0.1em 1em;
     }

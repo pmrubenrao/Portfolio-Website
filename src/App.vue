@@ -27,7 +27,7 @@ export default {
 :root {
   --primary-color: #007af3;
   --background-color-primary: #ebebeb;
-  --background-color-secondary: #fafafa;
+  --background-color-secondary: #f2f2f2;
   --accent-color: #cacaca;
   --text-primary-color: #222;
   --element-size: 4rem;
@@ -53,7 +53,7 @@ body {
   font-family: Poppins;
 
   body {
-    background: #f2f2f2;
+    // background: #f2f2f2;
     margin: 0px;
     font-family: 'Poppins';
     animation: fadeInAnimation ease 3s;

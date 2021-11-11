@@ -69,6 +69,7 @@ export default {
 
 .switch-label {
   align-items: center;
+  float: right;
   background: var(--text-primary-color);
   border: calc(var(--element-size) * 0.025) solid var(--accent-color);
   border-radius: var(--element-size);
