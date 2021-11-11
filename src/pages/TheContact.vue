@@ -80,11 +80,11 @@ section.pf-main-header {
       }
     }
   }
-  body {
-    margin: 50px;
-    font-family: helvetica, sans-serif;
-    background: #e9f0f4;
-  }
+  // body {
+  //   margin: 50px;
+  //   font-family: helvetica, sans-serif;
+  //   background: #e9f0f4;
+  // }
 
   .wrap {
     margin: 20px auto;

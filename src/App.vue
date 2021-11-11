@@ -1,6 +1,6 @@
 <template>
   <navigation-menu> </navigation-menu>
-  <!-- <dark-mode></dark-mode> -->
+  <dark-mode></dark-mode>
   <main>
     <router-view v-slot="slotProps" mode="out-in">
       <transition name="route">
@@ -24,7 +24,31 @@ export default {
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+:root {
+  --primary-color: #007af3;
+  --background-color-primary: #ebebeb;
+  --background-color-secondary: #fafafa;
+  --accent-color: #cacaca;
+  --text-primary-color: #222;
+  --element-size: 4rem;
+}
 
+/* Define styles for the root window with dark - mode preference */
+:root.dark-theme {
+  --background-color-primary: #1e1e1e;
+  --background-color-secondary: #2d2d30;
+  --accent-color: #3f3f3f;
+  --text-primary-color: #ddd;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--background-color-primary);
+  color: var(--text-primary-color);
+  // span {
+  //   color: var(--text-primary-color);
+  // }
+}
 #app {
   font-family: Poppins;
 
@@ -69,23 +93,6 @@ export default {
   .route-enter-to,
   .route-leave-from {
     opacity: 1;
-  }
-
-  :root {
-    --primary-color: #007af3;
-    --background-color-primary: #ebebeb;
-    --background-color-secondary: #fafafa;
-    --accent-color: #cacaca;
-    --text-primary-color: #222;
-    --element-size: 4rem;
-  }
-
-  /* Define styles for the root window with dark - mode preference */
-  :root.dark-theme {
-    --background-color-primary: #1e1e1e;
-    --background-color-secondary: #2d2d30;
-    --accent-color: #3f3f3f;
-    --text-primary-color: #ddd;
   }
 
   .container {

@@ -44,6 +44,7 @@ export default {
       localStorage.setItem('user-theme', theme);
       this.userTheme = theme;
       document.documentElement.className = theme;
+      // console.log(document.documentElement.className);
     },
 
     getMediaPreference() {

@@ -51,7 +51,11 @@
 </template>
 
 <script>
+// import DarkMode from './DarkMode.vue';
 export default {
+  // components: {
+  //   'dark-mode': DarkMode,
+  // },
   data() {
     return {
       mobileMenuBar: false,
@@ -66,15 +70,19 @@ export default {
 </script>
 
 <style lang="scss">
-:root {
-  --primary-color: #007af3;
+section {
+  background: var(--background-color-primary);
 }
+// :root {
+//   --primary-color: #007af3;
+// }
 
-body {
-  background: #f2f2f2;
-  margin: 0px;
-  font-family: 'Poppins';
-}
+// body {
+//   // background: #f2f2f2;
+//   background-color: var(--background-color-primary);
+//   margin: 0px;
+//   font-family: 'Poppins';
+// }
 
 nav.menu-btn {
   display: block;
@@ -122,13 +130,13 @@ nav {
 }
 
 .navbar {
-  background: white;
+  // background: white;
   padding: 1em;
 
   .logo {
     text-decoration: none;
     font-weight: 700;
-    color: black;
+    // color: black;
     font-size: 1.2em;
 
     span {
