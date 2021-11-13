@@ -5,23 +5,26 @@
         <h1>Reach Me :</h1>
         <div class="referencelink">
           <a href="https://github.com/pmrubenrao" target="_blank"
-            ><img alt="#" src="../assets/github.svg"
+            ><img class="svg-decorator" alt="#" src="../assets/github.svg"
           /></a>
           <a
             href="https://stackoverflow.com/users/5692366/ruben"
             target="_blank"
-            ><img alt="#" src="../assets/stackoverflow.svg"
+            ><img
+              class="svg-decorator"
+              alt="#"
+              src="../assets/stackoverflow.svg"
           /></a>
           <a href="mailto:pmrubenrao1010@gmail.com" target="_blank"
-            ><img alt="#" src="../assets/gmail.svg"
+            ><img class="svg-decorator" alt="#" src="../assets/gmail.svg"
           /></a>
           <a
             href="https://www.linkedin.com/in/ruben-rao-737a241ba/"
             target="_blank"
-            ><img alt="#" src="../assets/linkedin.svg"
+            ><img class="svg-decorator" alt="#" src="../assets/linkedin.svg"
           /></a>
           <a href="https://www.instagram.com/ruben_rao/" target="_blank"
-            ><img alt="#" src="../assets/instagram.svg"
+            ><img class="svg-decorator" alt="#" src="../assets/instagram.svg"
           /></a>
         </div>
       </div>
@@ -58,7 +61,9 @@ section {
   max-width: 47.5em;
   margin: 0 auto 0 auto;
 }
-
+.svg-decorator {
+  filter: var(--svg-color);
+}
 section.pf-main-header {
   // padding: 10em;
   .container {

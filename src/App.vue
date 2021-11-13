@@ -28,6 +28,8 @@ export default {
   --primary-color: #007af3;
   --background-color-primary: #ebebeb;
   --background-color-secondary: #444447;
+  --svg-color: invert(3%) sepia(1%) saturate(1024%) hue-rotate(314deg)
+    brightness(92%) contrast(81%);
   --accent-color: #cacaca;
   --text-primary-color: #222;
   --element-size: 2.5rem;
@@ -37,6 +39,8 @@ export default {
 :root.dark-theme {
   --background-color-primary: #1e1e1e;
   --background-color-secondary: #b6b9bb;
+  --svg-color: invert(81%) sepia(0%) saturate(3725%) hue-rotate(358deg)
+    brightness(82%) contrast(88%);
   --accent-color: #3f3f3f;
   --text-primary-color: #ddd;
 }
