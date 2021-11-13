@@ -42,7 +42,7 @@
 
 <style lang="scss" scoped>
 section {
-  padding: 3em 2em 0em 2em;
+  padding: 0em 2em 0em 2em;
   max-width: 47.5em;
   margin: 0 auto 0 auto;
 }
@@ -59,6 +59,14 @@ section {
     text-transform: uppercase;
     font-size: 2.5em;
     margin-top: 0.2em;
+  }
+  a {
+    padding: 0 0 1em 0;
+    // font-size: 1.17em;
+    color: var(--background-color-secondary);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
   }
 }
 </style>

@@ -71,7 +71,7 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  padding: 1em 2em;
+  padding: 0em 2em;
   max-width: 47.5em;
   margin: 0 auto 0 auto;
 }
@@ -81,7 +81,7 @@ section.pf-main-header {
     h1 {
       text-transform: uppercase;
       font-size: 2.5em;
-      padding: 1em 0em 0em;
+      padding: 0.5em 0em 0em;
       margin: 0;
     }
   }

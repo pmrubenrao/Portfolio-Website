@@ -33,7 +33,7 @@ export default {
   a {
     padding: 0 0 1em 0;
     font-size: 1.17em;
-    color: rgb(65, 62, 62);
+    color: var(--background-color-secondary);
     font-weight: bold;
     cursor: pointer;
     text-decoration: underline;

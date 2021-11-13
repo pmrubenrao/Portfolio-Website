@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <input
       @change="toggleTheme"
       id="checkbox"
@@ -14,7 +14,7 @@
         :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }"
       ></div>
     </label>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -49,7 +49,7 @@ export default {
 
     getMediaPreference() {
       const hasDarkPreference = window.matchMedia(
-        '(prefers-color-scheme: dark)'
+        '(prefers-color-scheme: light)'
       ).matches;
       if (hasDarkPreference) {
         return 'dark-theme';
@@ -63,13 +63,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+section {
+  padding: 0em 2em 0em 2em;
+  max-width: 47.5em;
+  margin: 0 auto 0 auto;
+}
 .switch-checkbox {
   display: none;
 }
 
 .switch-label {
   align-items: center;
-  float: right;
+  /* left: 0%; */
   background: var(--text-primary-color);
   border: calc(var(--element-size) * 0.025) solid var(--accent-color);
   border-radius: var(--element-size);
@@ -83,6 +88,7 @@ export default {
   justify-content: space-between;
   width: var(--element-size);
   z-index: 1;
+  text-align: centre;
 }
 
 .switch-toggle {

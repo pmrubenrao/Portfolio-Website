@@ -27,16 +27,16 @@ export default {
 :root {
   --primary-color: #007af3;
   --background-color-primary: #ebebeb;
-  --background-color-secondary: #f2f2f2;
+  --background-color-secondary: #444447;
   --accent-color: #cacaca;
   --text-primary-color: #222;
-  --element-size: 4rem;
+  --element-size: 2.5rem;
 }
 
 /* Define styles for the root window with dark - mode preference */
 :root.dark-theme {
   --background-color-primary: #1e1e1e;
-  --background-color-secondary: #2d2d30;
+  --background-color-secondary: #b6b9bb;
   --accent-color: #3f3f3f;
   --text-primary-color: #ddd;
 }
