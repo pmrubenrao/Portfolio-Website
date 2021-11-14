@@ -17,6 +17,8 @@ The purpose of building this Vue Js portfolio website is to demonstrate my exper
 
 [Portfolio landing Page](https://portfolio.serverless.world 'Portfolio Homepage')
 
+![Screenshot](https://github.com/pmrubenrao/Portfolio-Website/blob/master/src/assets/Capture.JPG?raw=true)
+
 ## Project setup / Installation
 
 For installing the dependencies required by the VueJs project
