@@ -1,17 +1,17 @@
 <template>
   <div>
     <about-me></about-me>
-    <generic-list header-list="header-layout-patch"></generic-list>
+    <skills-list header-list="header-layout-patch"></skills-list>
   </div>
 </template>
 
 <script>
 import AboutMe from '../components/AboutMe.vue';
-import GenericList from '../components/GenericList.vue';
+import SkillsList from '../components/SkillsList.vue';
 export default {
   components: {
     AboutMe,
-    GenericList,
+    SkillsList,
   },
 };
 </script>

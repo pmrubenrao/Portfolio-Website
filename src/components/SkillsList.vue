@@ -19,16 +19,16 @@
     <div class="container">
       <h1 :class="headerList">BLOG POST</h1>
     </div>
-    <the-blog-post></the-blog-post>
+    <blog-post></blog-post>
   </section>
 </template>
 
 <script>
 import TheList from './TheList.vue';
 import TheSubHeader from './TheSubHeader.vue';
-import TheBlogPost from './TheBlogPost.vue';
+import BlogPost from './BlogPost.vue';
 export default {
-  components: { TheList, TheSubHeader, TheBlogPost },
+  components: { TheList, TheSubHeader, BlogPost },
   props: ['headerList'],
 };
 </script>

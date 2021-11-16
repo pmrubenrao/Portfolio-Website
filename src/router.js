@@ -1,16 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import ThePortfolio from './pages/ThePortfolio.vue';
+import PortfolioPage from './pages/PortfolioPage.vue';
 import LandingPage from './pages/LandingPage.vue';
-import TheContact from './pages/TheContact.vue';
+import ContactPage from './pages/ContactPage.vue';
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/', redirect: '/about' },
     { path: '/about', component: LandingPage },
-    { path: '/portfolio', component: ThePortfolio },
-    { path: '/contact', component: TheContact },
-    // { path: '/', component: LandingPage },
+    { path: '/portfolio', component: PortfolioPage },
+    { path: '/contact', component: ContactPage },
     { path: '/:notFound(.*)', redirect: '/about' },
   ],
   scrollBehaviour(savedPosition) {

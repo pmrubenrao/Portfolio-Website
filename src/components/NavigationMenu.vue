@@ -51,11 +51,7 @@
 </template>
 
 <script>
-// import DarkMode from './DarkMode.vue';
 export default {
-  // components: {
-  //   'dark-mode': DarkMode,
-  // },
   data() {
     return {
       mobileMenuBar: false,

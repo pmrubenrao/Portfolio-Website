@@ -49,9 +49,6 @@ body {
   margin: 0px;
   background-color: var(--background-color-primary);
   color: var(--text-primary-color);
-  // span {
-  //   color: var(--text-primary-color);
-  // }
 }
 #app {
   font-family: Poppins;
@@ -89,10 +86,6 @@ body {
   .route-enter-active {
     transition: opacity 0.4s ease-in;
   }
-
-  // .route-leave-active {
-  //   transition: opacity 0.5s ease-out;
-  // }
 
   .route-enter-to,
   .route-leave-from {
