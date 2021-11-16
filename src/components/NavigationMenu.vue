@@ -8,7 +8,7 @@
         >
         <img
           @click="toggleMobileMenu()"
-          class="mobile-menu"
+          class="mobile-menu svg-decorator"
           src="../assets/openNavigation.svg"
           alt="Open Navigation"
         />
@@ -68,6 +68,10 @@ export default {
 <style lang="scss">
 section {
   background: var(--background-color-primary);
+}
+
+.svg-decorator {
+  filter: var(--svg-color);
 }
 // :root {
 //   --primary-color: #007af3;
