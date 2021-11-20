@@ -53,6 +53,17 @@ export default {
       isActive: false,
     };
   },
+  methods: {},
+  mounted() {
+    this.$LoadScript('https://storage.ko-fi.com/cdn/widget/Widget_2.js')
+      .then(() => {
+        window.kofiwidget2.init('', '#29abe0', 'D1D16QT90');
+        window.kofiwidget2.draw();
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  },
 };
 </script>
 <style lang="scss" scoped>

@@ -11,17 +11,6 @@
         Services.
         <br />
         <br />
-        Recently I've been exposed to the realm of frontend development in my
-        projects to move towards my goal of becoming a Full Stack Developer.
-        When I first entered into the frontend development I get overwhelmed
-        with the variety of the framework that is available to work on. But, I
-        got influenced by a documentary from
-        <a href="https://www.youtube.com/watch?v=OrxmtDw4pVI/">Honey-Pot</a>
-        about the frontend framework, Vue.js and I fall for it. I google the
-        best available course on Udemy and started learning and build few
-        projects on it.
-        <br />
-        <br />
         I am a strong believer in the concept of
         <strong>“giving back to the community”</strong>. All the things you
         experienced throughout your career should be shared with your community

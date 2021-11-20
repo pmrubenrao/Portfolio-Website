@@ -1,7 +1,8 @@
 <template>
   <navigation-menu> </navigation-menu>
-  <dark-mode></dark-mode>
+
   <main>
+    <dark-mode></dark-mode>
     <router-view v-slot="slotProps" mode="out-in">
       <transition name="route">
         <component :is="slotProps.Component"></component>

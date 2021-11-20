@@ -8,6 +8,8 @@
         >
         <img
           @click="toggleMobileMenu()"
+          width="28px"
+          height="24px"
           class="mobile-menu svg-decorator"
           src="../assets/openNavigation.svg"
           alt="Open Navigation"
@@ -15,6 +17,8 @@
         <nav :class="mobileMenuBar ? 'menu-btn' : ''">
           <img
             @click="toggleMobileMenu()"
+            width="28px"
+            height="24px"
             class="mobile-menu-exit"
             src="../assets/closeNavigation.svg"
             alt="Close Navigation"
