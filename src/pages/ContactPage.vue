@@ -18,9 +18,7 @@
           <a href="mailto:pmrubenrao1010@gmail.com" target="_blank"
             ><img class="svg-decorator" alt="#" src="../assets/gmail.svg"
           /></a>
-          <a
-            href="https://www.linkedin.com/in/ruben-rao-737a241ba/"
-            target="_blank"
+          <a href="https://www.linkedin.com/in/ruben-rao" target="_blank"
             ><img class="svg-decorator" alt="#" src="../assets/linkedin.svg"
           /></a>
           <a href="https://www.instagram.com/ruben_rao/" target="_blank"
