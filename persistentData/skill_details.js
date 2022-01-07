@@ -3,7 +3,10 @@ export const frontendData = [
   'AWS lambda functions',
   'API Gateway',
   'GraphQL',
-  'Google Firestore',
+  'Team City',
+  "K8's",
+  'CI/CD',
+  'Kafka',
 ];
 export const backendData = [
   'Vue Js',
