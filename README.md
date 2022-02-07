@@ -1,7 +1,7 @@
 # Portfolio-Website
 
 Hi, I am Ruben Rao a Software Developer Specialized in AWS Cloud serverless services.
-The purpose of building this Vue Js portfolio website is to demonstrate my experience in Software Development and side projects that I've been working on the side.
+The purpose of building this Vue Js portfolio website is to demonstrate my experience in Software Development and side projects that I've been working on.
 
 ##
 
