@@ -8,7 +8,7 @@
 
     <section class="header-layout">
       <div class="container">
-        <h1 class="header-layout-patch">Backend Developer @Deutsche bank</h1>
+        <h1 class="header-layout-patch">Full-Stack Developer @Deutsche bank</h1>
 
         <!-- <section class="pf-exp"> -->
         <!-- <div>
@@ -26,7 +26,7 @@
 
     <section class="header-layout">
       <div class="container">
-        <h1 class="header-layout-patch">FullStack Developer @Tech Mahindra</h1>
+        <h1 class="header-layout-patch">Full-Stack Developer @Tech Mahindra</h1>
 
         <!-- <section class="pf-exp"> -->
         <!-- <div>

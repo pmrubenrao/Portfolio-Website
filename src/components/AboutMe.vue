@@ -2,9 +2,9 @@
   <section class="about">
     <div class="container">
       <p class="subhead">Hi, this is Ruben Rao</p>
-      <h1>I am Back-end developer</h1>
+      <h1>I am Full-Stack developer</h1>
       <p>
-        Hi! My name is Ruben and I’ve been working as a backend developer for
+        Hi! My name is Ruben and I've been working as a backend developer for
         over 6 years mostly on the Telecomm domain. During my journey, I am
         lucky enough to get the opportunity to work on projects that require the
         setting up of the infrastructure on the cloud provider like Amazon Web
