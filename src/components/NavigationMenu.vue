@@ -36,7 +36,7 @@
             </li>
             <li>
               <a
-                href="https://serverless.world"
+                href="https://rubenrao.com"
                 @click="toggleMobileMenu()"
                 target="_blank"
                 >Blog</a
